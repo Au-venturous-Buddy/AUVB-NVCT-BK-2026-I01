@@ -1,0 +1,9 @@
+@use "variables" as v;
+
+iframe {
+    border-radius: 10px;
+}
+
+iframe:hover {
+    box-shadow: v.$shadowCenter;
+}

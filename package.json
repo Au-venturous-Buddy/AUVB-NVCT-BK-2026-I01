@@ -1,0 +1,66 @@
+{
+  "name": "auvb-nvct-bk-2026-i01",
+  "author": "Au-venturous Buddy <auventurous.buddy@gmail.com>",
+  "main": "main.js",
+  "private": true,
+  "description": "Kali is a kid who dreams of going to a space station school...except that he has autism! But his parents prayed and refused to give up, and Kali had speech therapy, occupational therapy, etc. And with a super-special smartwatch, he also got additional help...from his favorite twin buddies Zene and Zeanne!",
+  "version": "2026.01",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^5.18.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "gatsby": "^5.16.1",
+    "gatsby-plugin-image": "^3.16.0",
+    "gatsby-plugin-manifest": "^5.16.0",
+    "gatsby-plugin-offline": "^6.16.0",
+    "gatsby-plugin-react-helmet": "^6.16.0",
+    "gatsby-plugin-sass": "^6.16.0",
+    "gatsby-plugin-sharp": "^5.16.0",
+    "gatsby-source-filesystem": "^5.16.0",
+    "gatsby-transformer-remark": "^6.16.0",
+    "gatsby-transformer-sharp": "^5.16.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.10",
+    "react-bootstrap-range-slider": "^3.0.8",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.7.0",
+    "react-slick": "^0.29.0",
+    "sass": "^1.101.0",
+    "slick-carousel": "^1.8.1",
+    "text-vide": "^1.8.6"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "allowScripts": {
+    "core-js@3.50.0": true,
+    "core-js-pure@3.50.0": true,
+    "es5-ext@0.10.64": true,
+    "gatsby@5.16.1": true,
+    "msgpackr-extract@3.0.4": true,
+    "sharp@0.32.6": true,
+    "gatsby-cli@5.16.0": true,
+    "lmdb@2.5.3": true
+  }
+}
